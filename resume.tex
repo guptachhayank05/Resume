@@ -1,0 +1,112 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.55in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+
+\definecolor{linkcol}{HTML}{1F4E79}
+\hypersetup{colorlinks=true, urlcolor=linkcol}
+
+\titleformat{\section}{\normalfont\bfseries\Large}{}{0em}{}[\vspace{2pt}\hrule]
+\titlespacing*{\section}{0pt}{0.9em}{0.4em}
+
+\newcommand{\resumeItem}[1]{\item{\small #1}}
+\setlist[itemize]{leftmargin=1.1em, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt}
+
+\newcommand{\resumeEntry}[3]{
+  \noindent\textbf{#1} --- #2 \hfill #3\\[0.05em]
+}
+
+\newcommand{\resumeEntryNoRight}[2]{
+  \noindent\textbf{#1} \hfill {\small #2}\\[0.05em]
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Chhayank Gupta}}\\[0.35em]
+  \small
+  \href{mailto:gupta.chhayank05@gmail.com}{gupta.chhayank05@gmail.com} \ $|$ \
+  +91-9105063355 \ $|$ \
+  \href{https://linkedin.com/in/chhayank-gupta-a9b845296/}{linkedin.com/in/chhayank-gupta-a9b845296} \ $|$ \
+  \href{https://github.com/guptachhayank05}{github.com/guptachhayank05}
+\end{center}
+\vspace{-0.6em}
+
+\section*{Education}
+\resumeEntry{B.Tech, Electrical and Computer Engineering}{Shiv Nadar University, Greater Noida \quad CGPA: 7.68}{2027}
+
+\section*{Internships}
+
+\resumeEntry{Quantitative Research Intern --- International Markets}{Futures First Info Services Pvt. Ltd.}{May'26 - Jul'26}
+\begin{itemize}
+  \resumeItem{Conducted research on international markets to identify tradeable patterns and inform systematic strategy design.}
+  \resumeItem{Developed and automated algorithmic trading strategies using C++, Python, and Excel, translating research insights into rule-based execution logic.}
+  \resumeItem{Backtested strategies against historical data to validate performance and refine trading logic before deployment.}
+\end{itemize}
+
+\resumeEntry{Software Engineering Intern}{NAV BackOffice}{May'25 - Aug'25}
+\begin{itemize}
+  \resumeItem{Assisted in developing a Ticket Processing System (TPS) to automate issue tracking and streamline resolution workflows.}
+  \resumeItem{Built a full-stack User Record Management website, implementing authentication, data validation, and CRUD operations for secure and consistent user records.}
+  \resumeItem{Collaborated with cross-functional team members to debug issues, optimize backend performance, and improve UI/UX.}
+\end{itemize}
+
+\section*{Projects}
+
+\resumeEntryNoRight{Creovue --- Enterprise Role-Based Talent \& Opportunity Platform}{}
+\begin{itemize}
+  \resumeItem{Architected a role-based talent platform connecting Artists, Media, and Production Houses using Java, Spring Boot, and PostgreSQL.}
+  \resumeItem{Implemented Spring Security with JWT for role-based access control (RBAC) and engineered 10+ REST APIs for job postings and hiring workflows.}
+  \resumeItem{Applied global exception handling (\texttt{@RestControllerAdvice}), DTO validation patterns, and clean layered architecture.}
+\end{itemize}
+
+\resumeEntryNoRight{Shopper24 --- Full-Stack E-Commerce Platform}{}
+\begin{itemize}
+  \resumeItem{Engineered an end-to-end e-commerce platform using React.js, Spring Boot, and MySQL with dynamic search, filtering, and cart management.}
+  \resumeItem{Implemented stateless authentication with JWT, secured endpoints, and deployed frontend on Netlify and backend microservices on Render.}
+\end{itemize}
+
+\resumeEntryNoRight{User Entry \& Analytics Platform --- Full-Stack Web Application}{}
+\begin{itemize}
+  \resumeItem{Designed a full-stack web platform using React, .NET, and MongoDB with validations, authentication, and CRUD operations.}
+  \resumeItem{Built analytics dashboards with interactive visualization for actionable insights.}
+\end{itemize}
+
+\resumeEntryNoRight{Food Image-to-Recipe \& Nutrition Intelligence Engine}{}
+\begin{itemize}
+  \resumeItem{Built a computer vision pipeline with TensorFlow/Keras (VGG16/CNN) and Flask to classify food dishes from uploaded images.}
+  \resumeItem{Integrated 3rd-party REST APIs (Nutrition API, YouTube Data API) to dynamically fetch nutritional metrics and tutorial recipes.}
+\end{itemize}
+
+\section*{Skills and Expertise}
+\begin{itemize}
+  \resumeItem{\textbf{Programming Languages:} Java, Python, C, C++, C\#, JavaScript, SQL}
+  \resumeItem{\textbf{Frameworks \& Web:} Spring Boot, Spring Security, React.js, REST APIs, Hibernate/JPA, .NET Core, HTML5, CSS3}
+  \resumeItem{\textbf{Databases \& Cloud:} PostgreSQL, MySQL, MongoDB, Netlify, Render}
+  \resumeItem{\textbf{Tools \& Core Concepts:} Git, Linux, Postman, VS Code, Data Structures \& Algorithms, OOPs, DBMS, Operating Systems}
+\end{itemize}
+
+\section*{Online Certifications \& Training}
+\begin{itemize}
+  \resumeItem{Full Stack Web Development --- Udemy}
+  \resumeItem{Artificial Intelligence \& Machine Learning --- Udemy}
+\end{itemize}
+
+\section*{Extracurricular Activities}
+\begin{itemize}
+  \resumeItem{Solved 300+ problems on LeetCode, strengthening Data Structures \& Algorithms proficiency.}
+  \resumeItem{College Fest Volunteer --- Assisted in organizing events.}
+  \resumeItem{\textbf{Hackathons \& Competitions:} 2nd Rank University-wide in SIH 2023; Qualified for SIH 2025 [Zonal-Level]; Participated in Hackdata'25 (inter-college) and Envisage'25 (intra-college).}
+\end{itemize}
+
+\section*{Hobbies \& Interests}
+\small Coding, Open Source, Table Tennis, Public Speaking, Technical Writing, Community Engagement
+
+\end{document}
